@@ -1,0 +1,224 @@
+.logo {
+    width: 50px;
+    height: auto;
+}
+.text {
+    color: white;
+}
+main {
+    background: black;
+    height: auto;
+    min-height: 100%;
+}
+nav ul {
+   
+    margin-right: 20px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 5px;
+}
+ nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+ .active{
+    background: black;
+    transition: 0.5s;
+    text-decoration: none;
+}
+.active:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+.silde-banner img {
+    width: 100%;
+    height: auto;
+    max-height: 600px;
+    
+}
+.carousel-caption{
+    text-align: center;
+}
+.carousel-caption h3 {
+    font-weight: bold;
+    font-size: 50px;
+    color: lightblue;
+}
+.carousel-caption button {
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border:0;
+    background-image: linear-gradient(to left, rgb(248, 248, 41), rgb(241, 241, 116));
+    font-weight: bold;
+}
+.d-flex .form-control{
+    border-radius: 20px;
+}
+.d-flex button {
+    border-radius: 20px;
+}
+@media (max-width:450px){
+    .carousel-caption h3 {
+        font-weight: bold;
+        font-size: 20px;
+        color: lightblue;
+    }
+    .carousel-caption button {
+        width: 80px;
+        height: 30px;
+        border-radius: 5px;
+        border:0;
+        background-image: linear-gradient(to left, rgb(248, 248, 41), rgb(241, 241, 116));
+        font-weight: bold;
+    }
+}
+.login {
+    padding-top: 100px;
+    width: 450px;
+    margin: auto;
+}
+
+
+
+.featured--watchbutton{
+    
+    background-color: #FFF;
+    color: #000;
+    width: 204px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.featured--mylistbutton{
+    background-color: #333;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+}
+.featured--watchbutton,
+.featured--mylistbutton {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 10px;
+    opacity: 1;
+    transition: all ease 0.2s;
+    cursor: pointer;
+}
+.featured--watchbutton:hover, 
+.featured--mylistbutton:hover {
+    opacity: 0.7;
+}
+.content-button img{
+    width:40px;
+}
+.content-button img{
+    margin-top: -10px;
+    transition:0.5s;
+}
+.content-list-tilte {
+    width: 100%;
+    margin-top: 100px;
+    padding-bottom: 20px;
+}
+.content-list-tilte h3 {
+    color: white;
+    font-weight: bold;
+    padding-left: 30px;
+}
+.feature-box {
+    width: 180px;
+    height: 250px;
+    position: relative;
+    
+}
+.feature-box:hover {
+    width: 180px;
+    height: 250px;
+    
+    margin-top: -10px;
+    transition: 0.5s;
+}
+.feature-box1 {
+    width: 200px;
+    height: 230px;
+    position: relative;
+    
+}
+.feature-box1 img {
+    width: 196px;
+    height: 250px;
+    border-radius: 3px;
+    position: absolute;
+}
+.feature-box img {
+    width: 180px;
+    height: 230px;
+    
+    position: absolute;
+}
+.feature-box img:hover {
+    width: 200px;
+    height: 230px;
+    transition: 0.5s;
+    position: relative;
+   
+}
+
+.cs-hidden {
+    display: flex;
+    overflow: hidden;
+    padding-left: 50px;
+}
+.item {
+    padding-right: 30px;
+    list-style-type: none;
+}
+.slive-movie img {
+    width: 180px;
+    height: 230px;
+    padding-left: 10px;
+
+}
+.slive-movie {
+    width: 100%;
+   
+}
+.content-list-tilte a {
+    float: right; margin-top: -40px; padding-right:10px;font-size:18px;color:white;
+}
+.content-list-tilte a:hover{
+    color: yellow;
+    text-decoration: none;
+}
+.name-movie {
+    text-decoration: none;
+    color:  white;
+    padding-left: 5px;
+    
+}
+.name-movie:hover {
+    text-decoration: none;
+    color: yellow;
+    
+}
+.name-movie1 {
+    text-decoration: none;
+    color: black;
+    padding-left: 5px;
+}
+.name-movie1:hover {
+    text-decoration: none;
+    color: red;
+}
